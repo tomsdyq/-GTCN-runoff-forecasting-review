@@ -1,0 +1,33 @@
+﻿Review code archive for Environmental Modelling & Software submission
+
+Manuscript title:
+A Variable-as-Node Graph-Temporal Convolutional Network for Multi-Day Runoff Forecasting
+
+Authors:
+Tao Zhou, Zhongyi Li, and Weidong Shi
+
+This repository provides a password-protected review archive for editors and reviewers of Environmental Modelling & Software. The archive contains the G-TCN source code, configuration files, training and testing entry scripts, dependency files, basin lists, and CAMELS data preparation instructions.
+
+The CAMELS dataset itself is not redistributed in this archive because it is publicly available from NCAR/UCAR and related CAMELS repositories.
+
+The password for the archive has been provided separately to the editorial office through the submission system. For review integrity, the password is not included in this public repository.
+
+The authors intend to release the source code publicly on GitHub or a similar open repository after the manuscript is accepted.
+
+Archive file:
+GTCN-runoff-forecasting-review.7z
+
+Archive contents after extraction:
+README.md
+CITATION.cff
+requirements.txt
+environment.yml
+model/GCNtcnbat.py
+model/tcn.py
+pretrain_gtcn.py
+fine_tune_gtcn.py
+test_gtcn_global.py
+test_gtcn_single.py
+configs/
+data/
+utils/
